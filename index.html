@@ -13,15 +13,13 @@
 </head>
 
 <body>
-     <!-- ! NAVBAR STATIC-->
+     <!-- ! STATIC NAVBAR -->
      <nav class="navbar navbar-expand-sm bg-body-tertiary">
           <div class="container-fluid">
                <a class="navbar-brand" href="#">
                     <img src="./assets/logo-pokemon.svg" alt="Logo" width="150" height="24"
                          class="d-inline-block align-text-top">
-                    
                </a>
-
                <form id="form" role="search" class="d-flex">
                     <input id="input-form" class="form-control me-3" type="text" placeholder="Buscar"
                          aria-label="search">
@@ -30,178 +28,10 @@
           </div>
      </nav>
 
-     <!-- !CONTENT  DYNAMIC-->
+     <!-- !DYNAMIC CONTENT -->
      <main id="cards-container" class="container-fluid d-flex flex-wrap justify-content-around mb-3">
 
-          <!-- <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Ivysaur</h5>
-               <div class="card-body d-flex flex-column align-items-center">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-                    <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal"
-                         data-bs-target="#extraInfoModal">
-                         Saber más </button>
-                    <div class="modal fade" id="extraInfoModal" tabindex="-1" aria-labelledby="extraInfoModalLabel"
-                         aria-hidden="true">
-                         <div class="modal-dialog">
-                              <div class="modal-content">
-                                   <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="extraInfoModalLabel">Ivysaur</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                             aria-label="Close"></button>
-                                   </div>
-                                   <div class="modal-body">
-                                        <h2 class="fs-2">Datos extra:</h2>
-                                        <ul>
-                                             <li>+</li>
-                                             <li>-</li>
-                                             <li>*</li>
-                                        </ul>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-
-
-               </div>
-          </div>
-          <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Venusaur</h5>
-               <div class="card-body d-flex flex-column align-items-center">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-                    <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal"
-                         data-bs-target="#extraInfoModal">
-                         Saber más </button>
-                    <div class="modal fade" id="extraInfoModal" tabindex="-1" aria-labelledby="extraInfoModalLabel"
-                         aria-hidden="true">
-                         <div class="modal-dialog">
-                              <div class="modal-content">
-                                   <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="extraInfoModalLabel">Ivysaur</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                             aria-label="Close"></button>
-                                   </div>
-                                   <div class="modal-body">
-                                        <h2 class="fs-2">Datos extra:</h2>
-                                        <ul>
-                                             <li>*</li>
-                                             <li>*</li>
-                                             <li>*</li>
-                                        </ul>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-          <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Venusaur</h5>
-               <div class="card-body d-flex flex-column align-items-center">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-                    <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal"
-                         data-bs-target="#extraInfoModal">
-                         Saber más </button>
-                    <div class="modal fade" id="extraInfoModal" tabindex="-1" aria-labelledby="extraInfoModalLabel"
-                         aria-hidden="true">
-                         <div class="modal-dialog">
-                              <div class="modal-content">
-                                   <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="extraInfoModalLabel">Ivysaur</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                             aria-label="Close"></button>
-                                   </div>
-                                   <div class="modal-body">
-                                        <h2 class="fs-2">Datos extra:</h2>
-                                        <ul>
-                                             <li>*</li>
-                                             <li>*</li>
-                                             <li>*</li>
-                                        </ul>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div>
-          <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Venusaur</h5>
-               <div class="card-body d-flex flex-column align-items-center">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-                    <button type="button" class="btn btn-outline-dark w-100" data-bs-toggle="modal"
-                         data-bs-target="#extraInfoModal">
-                         Saber más </button>
-                    <div class="modal fade" id="extraInfoModal" tabindex="-1" aria-labelledby="extraInfoModalLabel"
-                         aria-hidden="true">
-                         <div class="modal-dialog">
-                              <div class="modal-content">
-                                   <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="extraInfoModalLabel">Ivysaur</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                             aria-label="Close"></button>
-                                   </div>
-                                   <div class="modal-body">
-                                        <h2 class="fs-2">Datos extra:</h2>
-                                        <ul>
-                                             <li>*</li>
-                                             <li>*</li>
-                                             <li>*</li>
-                                        </ul>
-                                   </div>
-                              </div>
-                         </div>
-                    </div>
-               </div>
-          </div> -->
-
-          <!-- <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Charmander</h5>
-               <div class="card-body">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-               </div>
-          </div>
-          <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Charmeleon</h5>
-               <div class="card-body">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-               </div>
-          </div>
-          <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Charizard</h5>
-               <div class="card-body">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-               </div>
-          </div>
-          <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Charizard2</h5>
-               <div class="card-body">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-               </div>
-          </div>
-          <div class="card mt-4">
-               <img class="card-img-top" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png"
-                    alt="bulbasaur">
-               <h5 class="card-header text-center mx-3 border rounded">Charizard</h5>
-               <div class="card-body">
-                    <p class="card-text"><strong> tipo: </strong> grass, poison</p>
-               </div>
-          </div> -->
      </main>
-
      <!-- todo SCRIPTS -->
      <script type="module" src="./app.js"></script>
      <!-- todo SCRIPT BOOTSTRAP -->
